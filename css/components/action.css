@@ -12,9 +12,10 @@
 
 .action::before {
     content: "";
-    background-color: #A58D4E;
+    background-color: #9B7E4B;
     width: 10px;
     height: 10px;
     margin-right: 10px;
+    border-radius: 10px;
 }
     
