@@ -1,11 +1,11 @@
-.title {
+.main-title {
     font-family: 'GFS Didot', serif;
     font-size: 40px;
-    color: #A58D4E;
+    color: #9B7E4B;
     text-shadow: 3px 3px 0px #000;
 }
 
-.title.-second {
+.main-title.-second {
     color: #fff;
     text-align: center;
 }
