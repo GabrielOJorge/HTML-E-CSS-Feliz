@@ -1,0 +1,19 @@
+.main-section {
+    background-color: #9B7E4B;
+    box-sizing: border-box;
+    background-size: 100%;
+    border-bottom: 10px solid #000;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    height: 740px;
+}
+
+.main-section .main-title {
+    margin-bottom: 60px;
+}
+
+.main-section.-project {
+    background-image: url(/assets/img/the_departure_2014.79.13.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
