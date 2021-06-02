@@ -1,5 +1,5 @@
-.wrapper-project {
+.wrapper-cardProject {
     display: flex;
     justify-content: space-around;
-    align-items: center;
+    line-height: 740px;
 }
