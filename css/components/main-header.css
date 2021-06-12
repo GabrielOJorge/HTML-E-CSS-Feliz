@@ -1,4 +1,4 @@
-.header {
+.main-header {
     position: fixed;
     background-color: #453630;
     display: flex;
@@ -7,10 +7,10 @@
     width: 100%;
 }
 
-.header .profile-pic {
+.main-header .profile-pic {
     border-radius: 50px;
 }
 
-.header .button {
+.main-header .button {
     margin-right: 40px;
 }
