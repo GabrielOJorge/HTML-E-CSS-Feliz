@@ -25,6 +25,11 @@
     <link rel="stylesheet" href="css/components/progress-bar.css">
     <link rel="stylesheet" href="css/components/project-links.css">
     <link rel="stylesheet" href="css/components/header-navigation.css">
+    <link rel="stylesheet" href="css/components/about-description.css">
+    <link rel="stylesheet" href="css/components/project-title.css">
+    <link rel="stylesheet" href="css/components/btn-arrow.css">
+    <link rel="stylesheet" href="css/components/node-card.css">
+    <link rel="stylesheet" href="css/components/main-carousel.css">
 </head>
 <body>
     <header class="main-header">
@@ -143,19 +148,83 @@
     </section>
     
     <section class="main-section -project">
-        <h2 class="main-title -second">Projetos</h2>
+        <div class="project-title">
+            <h2 class="main-title -second">Projetos</h2>
+        </div>
 
         <div class="wrapper-cardProject">
-            <a class="project-links" href="">
+            <a class="project-links" href="#">
                 <img class="img" src="assets/img/project1.png" alt="project1">
             </a>
-            <a class="project-links" href="">
+            <a class="project-links" href="#">
                 <img class="img" src="assets/img/project2.png" alt="project2">
             </a>
-            <a class="project-links" href="">
+            <a class="project-links" href="#">
                 <img class="img" src="assets/img/project3.png" alt="project3">
             </a>
         </div>
     </section>
+
+    <section class="main-section -about">
+        <h2 class="main-title -second">Sobre</h2>
+        
+        <section class="main-carousel">
+            <button class="btn-arrow -left"><span class="content">Avançar</span></button>
+
+            <div class="items">
+                <div class="elements">
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-locaweb.png" alt="logo-locaweb">
+                        </div>
+                    </figure>
+    
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-caelum.png" alt="logo-caelum">
+                        </div>
+                    </figure>
+    
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-getninjas.png" alt="logo-getninjas">
+                        </div>
+                    </figure>
+    
+                    <figure class="node-card -clean">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-caelum.png" alt="logo-caelum">
+                        </div>
+                    </figure>
+    
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-impulso.png" alt="logo-impulso">
+                        </div>
+                    </figure>
+    
+                    <figure class="node-card">
+                        <figcaption class="title">2012</figcaption>
+                        <div class="logo">
+                            <img src="assets/img/logo-collabcode.png" alt="logo-collabcode">
+                        </div>
+                    </figure>
+                </div>
+            </div>
+            
+            <button class="btn-arrow -right"><span class="content">Voltar</span></button>
+        </section>
+
+        <p class="about-description">
+            Hoje, instrutor e desenvolvedor FrontEnd/UX pela CollabCode, Marco já trabalhou nas mais diversas áreas. Foi palhaço, entrou na área de TI como desenvolvedor HMI/PLC e gosta de ir descobrindo seu caminho conforme o percorre. Marco também tem uma crescente presença em comunidades de UX e Front-end, trabalhando para uní-las, palestra em empresas e eventos como o WebBR, escreve em diversos blogs como o da Caelum, o Pinceladas da Web e seu Medium, quando não está jogando Airsoft ou trocando ideias com amigos.
+        </p>
+    </section>
+
+    <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
