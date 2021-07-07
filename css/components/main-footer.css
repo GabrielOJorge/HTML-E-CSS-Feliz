@@ -1,0 +1,13 @@
+.main-footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000;
+    box-sizing: border-box;
+    height: 100px;
+}
+
+.main-footer .yt {
+    margin-left: 40px;
+    margin-right: 40px;
+}
