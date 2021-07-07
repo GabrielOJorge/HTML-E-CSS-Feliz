@@ -1,0 +1,59 @@
+.main-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+}
+
+.inputs {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.inputs.-msg {
+    margin-bottom: 40px;
+}
+
+label {
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+input[type = "text"] {
+    display: block;
+    height: 50px;
+    width: 1360px;
+    border: 5px solid #000;
+}
+
+input[type = "email"] {
+    display: block;
+    height: 50px;
+    width: 1360px;
+    border: 5px solid #000;
+}
+
+input[ id = "message"] {
+    display: block;
+    height: 360px;
+    width: 1360px;
+    border: 5px solid #000;
+}
+
+input[type = "submit"] {
+    display: block;
+    height: 60px;
+    width: 1371px;
+
+    font-family: "Fira Code", Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+
+    background-color: #453630;
+    box-shadow: 5px 5px 0px #000;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
