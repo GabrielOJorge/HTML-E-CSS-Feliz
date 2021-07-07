@@ -22,3 +22,10 @@
 .main-section.-about {
     background-color: #453630;
 }
+
+.main-section.-contact {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+}

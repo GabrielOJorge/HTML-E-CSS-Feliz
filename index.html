@@ -30,6 +30,8 @@
     <link rel="stylesheet" href="css/components/btn-arrow.css">
     <link rel="stylesheet" href="css/components/node-card.css">
     <link rel="stylesheet" href="css/components/main-carousel.css">
+    <link rel="stylesheet" href="css/components/main-form.css">
+    <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 <body>
     <header class="main-header">
@@ -47,17 +49,17 @@
     </header>
 
     <section class="main-banner">
-        <div class="wrapper">
-            <div class="main-box">
-                <h2 class="main-title">Gabriel O. Jorge</h2>
-                <h3 class="main-subtitle" lang="en">FrontEnd Developer</h3>
-            </div>
+      <div class="wrapper">
+          <div class="main-box">
+            <h2 class="main-title">Gabriel O. Jorge</h2>
+            <h3 class="main-subtitle" lang="en">FrontEnd Developer</h3>
+          </div>
 
-            <div class="navigation">
-                <a class="main-button" href="" lang="en">Download CV</a>
-                <a class="main-button" href="">Contatos</a>
-            </div>
-        </div>
+          <div class="navigation">
+            <a class="main-button" href="" lang="en">Download CV</a>
+            <a class="main-button" href="">Contatos</a>
+          </div>
+      </div>
     </section>
 
     <section class="main-section">
@@ -207,7 +209,7 @@
                             <img src="assets/img/logo-impulso.png" alt="logo-impulso">
                         </div>
                     </figure>
-    
+
                     <figure class="node-card">
                         <figcaption class="title">2012</figcaption>
                         <div class="logo">
@@ -225,6 +227,41 @@
         </p>
     </section>
 
+    <section class="main-section -contact">
+        <h2 class="main-title -second">Contato</h2>
+
+        <form class="main-form" action="#">
+            <div class="inputs">
+                <label for="name">Nome</label>
+                <input type="text" name="name" id="name" required>
+            </div>
+
+            <div class="inputs">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" required>
+            </div>
+
+            <div class="inputs -msg">
+                <label for="message">Mensagem</label>
+                <input type="text" name="message" id="message" required>
+            </div>
+
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <footer class="main-footer">
+        <a href="#">
+            <img src="assets/img/twitter-icon.png" alt="twitter-icon">
+        </a>
+        <a class="yt" href="#">
+            <img src="assets/img/youtube-icon.png" alt="youtube-icon">
+        </a>
+        <a href="#">
+            <img src="assets/img/discord-icon.png" alt="discord-icon">
+        </a>
+    </footer>
+    
     <script src="js/components/main-carousel.js"></script>
 </body>
 </html>
